@@ -1,5 +1,14 @@
+import { ListItem, SearchBox, Sidebar, Workspace } from './components';
+
 function App() {
-  return <div className="App">notes</div>;
+  return (
+    <>
+      <ListItem />
+      <SearchBox />
+      <Sidebar />
+      <Workspace />
+    </>
+  );
 }
 
 export default App;
